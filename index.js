@@ -7,6 +7,6 @@ function destructivelyAppendKitten(name) {
 }
 
 function destructivelyPrependKitten(name) {
-  mod = [name, ...kittens];
+  var mod = [name, ...kittens];
   return mod;
 }
